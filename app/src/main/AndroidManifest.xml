@@ -17,7 +17,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".SearchDrinks" />
+<<<<<<< HEAD
         <activity android:name=".testactivity"></activity>
+=======
+        <activity android:name=".Tinder"></activity>
+>>>>>>> 43e224bced4b0991bd2b481e346293eaa5520920
     </application>
 
 </manifest>
