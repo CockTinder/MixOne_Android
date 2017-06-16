@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">MixOne</string>
     <string name="bananensaft">Bananensaft...</string>
+    <string name="button">Button</string>
 </resources>
