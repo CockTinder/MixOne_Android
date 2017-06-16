@@ -4,23 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.laptop.mixone.BestDrinks">
+    tools:context="com.example.laptop.mixone.SearchDrinks">
 
     <GridLayout
         android:layout_width="395dp"
-        android:layout_height="587dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
+        android:layout_height="556dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="101dp"
+        <EditText
+            android:id="@+id/searchField"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_column="1"
-            android:layout_row="57"
-            android:text="Button"
-            tools:layout_editor_absoluteX="42dp"
-            tools:layout_editor_absoluteY="129dp" />
-    </GridLayout>
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/bananensaft"
+            android:layout_row="14"
+            android:layout_column="0" />
 
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </GridLayout>
 </android.support.constraint.ConstraintLayout>
