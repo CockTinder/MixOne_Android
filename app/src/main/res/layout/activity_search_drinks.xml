@@ -20,6 +20,8 @@
             android:inputType="textPersonName"
             android:text="Name"
             android:layout_marginTop="10dp"
+            android:layout_column="0"
+            android:layout_row="0"
             />
 
         <HorizontalScrollView
@@ -176,14 +178,14 @@
                     app:srcCompat="@mipmap/ic_launcher" />
 
                 <ImageView
-                    android:id="@+id/imageView32"
+                    android:id="@+id/imageView31"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     app:srcCompat="@mipmap/ic_launcher" />
 
                 <ImageView
-                    android:id="@+id/imageView31"
+                    android:id="@+id/imageView32"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -198,20 +200,6 @@
 
                 <ImageView
                     android:id="@+id/imageView29"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    app:srcCompat="@mipmap/ic_launcher" />
-
-                <ImageView
-                    android:id="@+id/imageView28"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    app:srcCompat="@mipmap/ic_launcher" />
-
-                <ImageView
-                    android:id="@+id/imageView27"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"

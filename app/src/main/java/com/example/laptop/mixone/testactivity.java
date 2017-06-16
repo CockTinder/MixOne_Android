@@ -3,12 +3,11 @@ package com.example.laptop.mixone;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class BestDrinks extends AppCompatActivity {
+public class testactivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_search_drinks);
-       // getActionBar().hide();
+        setContentView(R.layout.activity_testactivity);
     }
 }
