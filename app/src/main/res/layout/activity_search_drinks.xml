@@ -17,11 +17,11 @@
             android:id="@+id/buttondrinks"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Drinks"
             android:layout_column="0"
-            android:layout_row="3"
             android:layout_marginLeft="120dp"
-            />
+            android:layout_row="3"
+            android:onClick="sendMessage"
+            android:text="Drinks" />
 
         <EditText
             android:id="@+id/editText12"
@@ -222,12 +222,6 @@
                     android:layout_weight="1"
                     app:srcCompat="@mipmap/ic_launcher" />
 
-                <Button
-                    android:id="@+id/button2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Button" />
             </LinearLayout>
         </ScrollView>
 
