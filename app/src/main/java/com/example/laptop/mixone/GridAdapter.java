@@ -48,6 +48,4 @@ public class GridAdapter extends BaseAdapter {
         iview.setImageResource(imageIds[position]);
         return iview;
     }
-
-
 }
