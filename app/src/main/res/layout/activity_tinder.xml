@@ -15,6 +15,7 @@
 
         <Button
             android:id="@+id/goBack"
+            style="@android:style/Widget.Material.Light.Button.Small"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="0"
