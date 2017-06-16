@@ -6,4 +6,24 @@
     android:layout_height="match_parent"
     tools:context="com.example.laptop.mixone.SearchDrinks">
 
+    <GridLayout
+        android:layout_width="395dp"
+        android:layout_height="556dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <EditText
+            android:id="@+id/searchField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Bananensaft..."
+            android:layout_row="14"
+            android:layout_column="0" />
+
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </GridLayout>
 </android.support.constraint.ConstraintLayout>
